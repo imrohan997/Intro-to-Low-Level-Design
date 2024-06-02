@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class EngineVehicle {
+public class EngineVehicle extends Vehicle{
+    public boolean hasEngine() {
+        return true;
+    }
 }

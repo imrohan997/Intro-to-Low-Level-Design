@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class MotorCycle {
+public class MotorCycle extends EngineVehicle {
 }

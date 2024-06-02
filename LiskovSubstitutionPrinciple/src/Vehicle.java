@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Vehicle {
+public class Vehicle {
+    public int getNumberOfWheels() {
+        return 2;
+    }
+
+//    public  Boolean hasEngine() {
+//        return true;
+//    }
 }

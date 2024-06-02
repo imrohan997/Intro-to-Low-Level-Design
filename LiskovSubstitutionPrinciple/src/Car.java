@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Car {
+public class Car extends EngineVehicle{
+
+    @Override
+    public int getNumberOfWheels() {
+        return 4;
+    }
 }
