@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +14,21 @@ public class Main {
         Iterator<Book> iterator = bookList.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next().bookName);
+        }
+
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(4);
+        numbers.add(5);
+
+        System.out.println("---------------");
+
+        Library<Integer> numbersList = new Library<>(numbers);
+        Iterator<Integer> integerIterator = numbersList.iterator();
+        while (integerIterator.hasNext()) {
+            System.out.println(integerIterator.next());
         }
     }
 }
